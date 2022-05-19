@@ -26,6 +26,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add DunnCounty_COVID19.ipynb
+        git add Cardiovascular_Prediction_ML.ipynb
         git commit -m "Update notebook" -a
         git push origin master
